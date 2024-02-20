@@ -2,7 +2,7 @@
 title: "Getting started with Github"
 author: "Kath Sherratt"
 date: "`r Sys.Date()`"
-output: github_document
+output: pdf_document
 ---
 
 ## Installing Git
