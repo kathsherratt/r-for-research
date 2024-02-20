@@ -53,20 +53,55 @@ There's one last step before you can get up and running with Github. You'll need
 This is done using a Personal Access Token (similar to a password). Follow these steps, starting within RStudio:
 
 1. Create a PAT. This will take you to the Github webpage to create a token. Give your token a simple name, accept the default settings, and continue. Copy the PAT (the long string) - you won't be able to see it again.
+
 ```{r git-pat-create, eval=FALSE}
 create_github_token()
 ```
 
 2. Execute this code, and when prompted, input the token you have just copied to authenticate yourself with Git.
+
 ```{r git-pat-input, eval=FALSE}
 gitcreds::gitcreds_set()
 ```
 
-You are now all set up to start working with Github!
+You are now all set up to start working with Github.
 
 # Integrating RStudio Projects with Github
 
-Github works really well with RStudio Projects. You can pretty much continue operating exactly as you already do - but now with quick access to back ups and a new suite of tools for tracking and collaborating on your files. The best way to get comfortable with using Git is to just start using it in your everyday work. Get going by converting an existing RProject into a Github repository! See: https://happygitwithr.com/usage-intro
+Github works really well with RStudio Projects. You can pretty much continue operating exactly as you already do - but now with quick access to back ups and a new suite of tools for tracking and collaborating on your files. The best way to get comfortable with using Git is to just start using it in your everyday work. Here is a quick look at the basic Github workflow:
+
+- Github works by storing your files in a "repository" (or "repo") - essentially a directory that holds all files (data, code, output) associated with one Project 
+- You take a snapshot of this directory to record the state of all your files - this is called a "commit"
+- You then upload the snapshot to Github - this is called a "push". The files as they are in the snapshot are stored remotely (and can be browsed online)
+- Repeat the commit-push process as often as you want to store changes in your files
+- Collaborate with others by sending them a link to the repository
+  - They can download your codebase ("clone")
+  - See your ongoing changes ("pull") 
+  - Modify and suggest changes to files ("pull request") - all without the your files being affected
+  
+Get going by converting an existing RProject into a Github repository.
+
+### Create a repository from an RProject
+
+Open an existing RProject and load the `usethis` package. Then try the following commands to turn your RProject into a repository hosted on Github:
+
+```{r rproject-to-github, eval=FALSE}
+library(usethis)
+use_git()
+use_github()
+```
+
+You should be taken to a Github page showing your files - you've created your first Github repo!
+
+- Browse your files online and explore how Github stores and displays your files in the web browser. 
+- Note: Github creates all new projects as public by default. If you want to keep your project files private: browse to "Settings" at the top of the Github webpage > scroll to the end, until you see "Change repository visibility" > follow the instructions to make the repository private.
+
+### Modify and track files
+
+To start using Github, a snapshot of your files and upload them to Github 
+
+For practice, try creating something new in the RProject directory that you've just converted to Github repo. Then open up Github Desktop and follow these steps to 
+
 
 ## Continue learning
 
