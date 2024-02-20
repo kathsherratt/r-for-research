@@ -66,7 +66,7 @@ You are now all set up to start working with Github!
 
 # Integrating RStudio Projects with Github
 
-Github works really well with RStudio Projects. Try creating a new Project 
+Github works really well with RStudio Projects. You can pretty much continue operating exactly as you already do - but now with quick access to back ups and a new suite of tools for tracking and collaborating on your files. The best way to get comfortable with using Git is to just start using it in your everyday work. Get going by converting an existing RProject into a Github repository! See: https://happygitwithr.com/usage-intro
 
 ## Continue learning
 
