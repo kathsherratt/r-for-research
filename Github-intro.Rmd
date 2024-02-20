@@ -98,7 +98,9 @@ You should be taken to a Github page showing your files - you've created your fi
 
 ### Modify and track files
 
-To start using Github, a snapshot of your files and upload them to Github 
+Let's link the repository you created online to Github Desktop so you can track it locally. 
+
+On the webpage of your repository, press the green "Code" button > "Open with Github Desktop".
 
 For practice, try creating something new in the RProject directory that you've just converted to Github repo. Then open up Github Desktop and follow these steps to 
 
