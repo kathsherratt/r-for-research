@@ -2,7 +2,7 @@
 title: "Getting started with Github"
 author: "Kath Sherratt"
 date: "`r Sys.Date()`"
-output: html_document
+output: github_document
 ---
 
 ## Installing Git
@@ -48,10 +48,28 @@ Like R, it's possible to use Git only from the command line. However this can be
 
 ### Communicate with Git online
 
-You'll need to authenticate yourself in order to connect the Git you now have on your computer to the online repo. This is done using a Personal Access Token (similar to a password).
+There's one last step before you can get up and running with Github. You'll need to authenticate yourself in order to connect between the Git you now have on your computer, and the online storage of your files on Github. 
+
+This is done using a Personal Access Token (similar to a password). Follow these steps, starting within RStudio:
+
+1. Create a PAT. This will take you to the Github webpage to create a token. Give your token a simple name, accept the default settings, and continue. Copy the PAT (the long string) - you won't be able to see it again.
+```{r git-pat-create, eval=FALSE}
+create_github_token()
+```
+
+2. Execute this code, and when prompted, input the token you have just copied to authenticate yourself with Git.
+```{r git-pat-input, eval=FALSE}
+gitcreds::gitcreds_set()
+```
+
+You are now all set up to start working with Github!
+
+# Integrating RStudio Projects with Github
+
+Github works really well with RStudio Projects. Try creating a new Project 
 
 ## Continue learning
 
 - [R for the rest of us: How to Use Git/GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/)
-- [Happy Git with R](https://happygitwithr.com).
+- [Happy Git with R](https://happygitwithr.com)
 
