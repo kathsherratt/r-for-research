@@ -102,7 +102,9 @@ Let's link the repository you created online to Github Desktop so you can track 
 
 On the webpage of your repository, press the green "Code" button > "Open with Github Desktop".
 
-For practice, try creating something new in the RProject directory that you've just converted to Github repo. Then open up Github Desktop and follow these steps to 
+For practice, try creating something new in the RProject - for example, create a new script and save it. Then switch windows back to Github Desktop: you should see your new script under the "Changes" tab. 
+- Create a commit: write a short message and press "Commit to main"
+- Push to Github: 
 
 
 ## Continue learning
