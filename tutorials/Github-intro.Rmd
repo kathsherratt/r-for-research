@@ -11,7 +11,7 @@ output: pdf_document
 
 A comprehensive and friendly installation guide for Git is available at: <https://happygitwithr.com/install-intro>. While this tutorial is a summary of the necessary steps, I strongly recommend keeping this guide handy while setting up and getting started with Git.
 
-The first thing you'll need is a Github account. Set one up for free at <https://github.com/>. Choose a username you're happy working with!
+The first thing you'll need is a Github account. Set one up for free at <https://github.com/>. Choose a username you're happy working with.
 
 ### Install Git
 
@@ -25,12 +25,12 @@ git --version
 - If git is installed, the result will indicate where the software is located and the version you have available
 - If Git has not yet been installed, you might see something like `git: command not found`. In this case:
   - If your computer prompts you to install Git, follow the prompts to do so.
-  - If nothing happens, go to the [Git website](https://git-scm.com/downloads) and select the version which is compatible with the OS of your computer (e.g. Windows/Mac/Linux/Solaris). Follow the instructions to download and install
+  - If nothing happens, go to the Git website at <https://git-scm.com/downloads> and select the version which is compatible with the OS of your computer (e.g. Windows/Mac/Linux/Solaris). Follow the instructions to download and install
 
 
 ### Login to Git
 
-You now need to login to Git. You can do this within RStudio using the handy `usethis` package. Change the `use_git_config()` settings to your Github username and email:
+You now need to login to Git. You can do this within RStudio using the `usethis` package. Change the `use_git_config()` settings to your new Github username and email:
 
 ```{r git-config, eval=FALSE}
 ## install if needed (do this exactly once):
@@ -44,7 +44,7 @@ use_git_config(user.name = "Your Username", user.email = "your@email.com")
 
 Like R, it's possible to use Git only from the command line. However this can be hard to read and frustrating to use. I suggest using an extra piece of software that provides a user interface to Git - just like RStudio does for R. A simple option is Github Desktop:
 
-- Go to [Github Desktop](https://desktop.github.com/) and follow the download instructions
+- Go to Github Desktop at <https://desktop.github.com/> and follow the download instructions
 
 ### Communicate with Git online
 
@@ -96,25 +96,26 @@ You should be taken to a Github page showing your files - you've created your fi
 - Browse your files online and explore how Github stores and displays your files in the web browser. 
 - Note: Github creates all new projects as public by default. If you want to keep your project files private: browse to "Settings" at the top of the Github webpage > scroll to the end, until you see "Change repository visibility" > follow the instructions to make the repository private.
 
-### Modify and track files
+### Track file changes
 
-Let's link the repository you created online to Github Desktop so you can track it locally. 
+Let's test how it all works, by tracking the repository you created using Github Desktop.
 
-- On the webpage of your repository, press the green "Code" button > "Open with Github Desktop".
-
-- Make a change in the RProject to test how Github works. 
-  - For example, within your RProject environment, create a new script and save it.   
-
-- Switch windows back to Github Desktop: you should see your new script under the "Changes" tab. Stay in Github Desktop to push this to the Github remote (website).
-  - Create a commit: write a short message to summarise your change in the bottom-left box and press "Commit to main"
-  - Push to Github: in the top bar, press "Push origin"
-
-- Now switch back to your web browser to check your new script has been uploaded to Github remote storage.
+- Open Github Desktop and click File >> Add Local Repository. Navigate to the directory of the RProject you just converted into a Github repository. Continue to "Add Repository".
+- Test it out by making a change in your RProject. For example, create a new script and save it within your RProject directory.   
+- Check back in Github Desktop: you should see your new script under the "Changes" tab. 
+- Use Github Desktop to push this to the Github remote (website).
+  - Create a commit: write a short message to summarise your change in the bottom-left box. Press "Commit to main". This has created a snapshot of your files.
+  - Push to Github: in the top bar, press "Push origin". This has pushed the snapshot to the remote.
+- Now switch back to your web browser to check your new script has been uploaded to Github.
 
 
 ## Continue learning Github
 
-There are tons of resources for using Github with R and RStudio. They can get quite technical but you've got the basics already. Here are a couple of good guides to keep going with Github:
+We are offering a full introduction to Github as part of the R for Research TED courses: "R for Research: An Introduction to Version Control with Git in Rstudio".
+Sign up at:
+<https://lshtm.sharepoint.com/sites/intranet-talent-and-educational-development> 
+
+There are plenty of online resources for using Github with R and RStudio. Here are a couple of good guides to keep going with Github:
 
 - [R for the rest of us: How to Use Git/GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/)
 - [Happy Git with R](https://happygitwithr.com)
