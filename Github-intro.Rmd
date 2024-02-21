@@ -100,14 +100,21 @@ You should be taken to a Github page showing your files - you've created your fi
 
 Let's link the repository you created online to Github Desktop so you can track it locally. 
 
-On the webpage of your repository, press the green "Code" button > "Open with Github Desktop".
+- On the webpage of your repository, press the green "Code" button > "Open with Github Desktop".
 
-For practice, try creating something new in the RProject - for example, create a new script and save it. Then switch windows back to Github Desktop: you should see your new script under the "Changes" tab. 
-- Create a commit: write a short message and press "Commit to main"
-- Push to Github: 
+- Make a change in the RProject to test how Github works. 
+  - For example, within your RProject environment, create a new script and save it.   
+
+- Switch windows back to Github Desktop: you should see your new script under the "Changes" tab. Stay in Github Desktop to push this to the Github remote (website).
+  - Create a commit: write a short message to summarise your change in the bottom-left box and press "Commit to main"
+  - Push to Github: in the top bar, press "Push origin"
+
+- Now switch back to your web browser to check your new script has been uploaded to Github remote storage.
 
 
-## Continue learning
+## Continue learning Github
+
+There are tons of resources for using Github with R and RStudio. They can get quite technical but you've got the basics already. Here are a couple of good guides to keep going with Github:
 
 - [R for the rest of us: How to Use Git/GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/)
 - [Happy Git with R](https://happygitwithr.com)
