@@ -44,4 +44,15 @@ Most of these resources cover the key topics of the session (workflow, style gui
   - https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r 
   - https://happygitwithr.com 
 
+#### Questions & resources
 
+- Using R with large or confidential data sets 
+  - This guide covers many useful practices, including the highly recommended `data.table` package
+    - https://marketsplash.com/tutorials/r/how-to-handle-large-datasets-in-r/
+  - When using Github with large or confidential data sets, one strategy might be to use the `.gitignore` file to preve Github from tracking or uploading a given data file. More info on the `.gitignore` file
+    - https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+- Writing reports with Rmarkdown
+  - An example of a paper using Rmarkdown
+    - https://github.com/epiforecasts/euro-hub-ensemble/tree/main/analysis
+  - Using `trackdown` for tracking changes with google docs
+    - https://cran.r-project.org/web/packages/trackdown/vignettes/trackdown-workflow.html
