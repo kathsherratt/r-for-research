@@ -1,5 +1,3 @@
-# R for research
-
 ### Introduction to good practices
 
 These materials were developed for an LSHTM workshop introducing good practices using R for research.
@@ -20,39 +18,39 @@ These materials were developed for an LSHTM workshop introducing good practices 
 
 Most of these resources cover the key topics of the session (workflow, style guidance, R Markdown, and Git). If one doesn’t make sense to you, try another for a different explanation.
 
-- Open Data Science with R: https://carpentries-incubator.github.io/open-science-with-r/ 
-- R for Statistical Programming: https://smac-group.github.io/ds/
-- Efficient R: https://csgillespie.github.io/efficientR/
-- Reproducible Data Science: https://ecorepsci.github.io/reproducible-science/index.html 
+- Open Data Science with R: <https://carpentries-incubator.github.io/open-science-with-r>
+- R for Statistical Programming: <https://smac-group.github.io/ds/>
+- Efficient R: <https://csgillespie.github.io/efficientR/>
+- Reproducible Data Science: <https://ecorepsci.github.io/reproducible-science/index.html>
 
 #### Setting up RStudio Projects
 
-- Creating efficient workflows: https://csgillespie.github.io/efficientR/workflow.html 
-- Managing dependencies with renv: https://ecorepsci.github.io/reproducible-science/renv.html
+- Creating efficient workflows: <https://csgillespie.github.io/efficientR/workflow.html>
+- Managing dependencies with renv: <https://ecorepsci.github.io/reproducible-science/renv.html>
 
 #### Coding
 
-- Code style guides: https://style.tidyverse.org/
-- Writing functions: https://r4ds.hadley.nz/functions 
+- Code style guides: <https://style.tidyverse.org>
+- Writing functions: <https://r4ds.hadley.nz/functions>
 
 #### Reporting and collaborating
 
 - Rmarkdown:
-  - https://r4ds.had.co.nz/r-markdown.html 
-  - https://rmarkdown.rstudio.com/docs/articles/rmarkdown.html 
+  - <https://r4ds.had.co.nz/r-markdown.html>
+  - <https://rmarkdown.rstudio.com/docs/articles/rmarkdown.html> 
 - Github:
-  - https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r 
-  - https://happygitwithr.com 
+  - <https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r> 
+  - <https://happygitwithr.com>
 
 #### Questions & resources
 
 - Using R with large or confidential data sets 
   - This guide covers many useful practices, including the highly recommended `data.table` package
-    - https://marketsplash.com/tutorials/r/how-to-handle-large-datasets-in-r/
+    - <https://marketsplash.com/tutorials/r/how-to-handle-large-datasets-in-r>
   - When using Github with large or confidential data sets, one strategy might be to use the `.gitignore` file to preve Github from tracking or uploading a given data file. More info on the `.gitignore` file
-    - https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+    - <https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files>
 - Writing reports with Rmarkdown
   - An example of a paper using Rmarkdown
-    - https://github.com/epiforecasts/euro-hub-ensemble/tree/main/analysis
+    - <https://github.com/epiforecasts/euro-hub-ensemble/tree/main/analysis>
   - Using `trackdown` for tracking changes with google docs
-    - https://cran.r-project.org/web/packages/trackdown/vignettes/trackdown-workflow.html
+    - <https://cran.r-project.org/web/packages/trackdown/vignettes/trackdown-workflow.html>
