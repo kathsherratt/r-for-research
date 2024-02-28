@@ -3,10 +3,10 @@
 These materials were developed for an LSHTM workshop introducing good practices using R for research.
 
 - View [workshop slides](https://docs.google.com/presentation/d/1JvwDl79NHyAVp_u0KgF3MVIP6RuDPa08qmAUW3wyHdM/edit#slide=id.g2b9763de157_0_75)
-
-- Download the tutorials:
-  - [R Markdown](tutorials/Rmarkdown-intro.Rmd)
-  - [Github](tutorials/Github-intro.Rmd)
+- Go to [Github repository](https://github.com/kathsherratt/r-for-research/tree/main)
+  - Download the tutorials:
+    - [R Markdown](tutorials/Rmarkdown-intro.Rmd)
+    - [Github](tutorials/Github-intro.Rmd)
 
 - Read the article that summarises the key recommendations for good (enough) practices in scientific computing
   - Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510.
