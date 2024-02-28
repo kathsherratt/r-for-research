@@ -1,4 +1,4 @@
-### Introduction to good practices
+### R for Research: Introduction to good practices
 
 These materials were developed for an LSHTM workshop introducing good practices using R for research.
 
