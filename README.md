@@ -8,7 +8,7 @@ These materials were developed for an LSHTM workshop introducing good practices 
 | Writing code 	| Code style guidelines<br>Writing, testing, and getting help<br>Refactoring: managing existing code 	| lintr<br>stylr 	|
 | Communicating & collaborating 	| Reporting with Rmarkdown<br>Collaboration with Github 	| Rmarkdown<br>Github 	|
 
-Workshop content draws on this highly-recommended discussion of good enough practices in scientific computing, as well as several [textbooks](#General-resources) linked below.
+Workshop content draws on this highly-recommended discussion of good enough practices in scientific computing, as well as several [guides and textbooks](#General-resources) linked below.
   - Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510.
     - <https://doi.org/10.1371/journal.pcbi.1005510>
 
