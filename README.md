@@ -1,20 +1,27 @@
 ### R for Research: Introduction to good practices
 
-These materials were developed for an LSHTM workshop introducing good practices using R for research.
+These materials were developed for an LSHTM workshop introducing good practices using R for research. The workshop includes:
+
+| Theme 	| Content 	| Key tools 	|
+|---	|---	|---	|
+| Project set up 	| Reproducibility: RStudio projects<br>Modularity: separating data, code, and reporting<br>Documentation: READMEs and dependencies 	| RStudio Projects<br>renv 	|
+| Writing code 	| Code style guidelines<br>Writing, testing, and getting help<br>Refactoring: managing existing code 	| lintr<br>stylr 	|
+| Communicating & collaborating 	| Reporting with Rmarkdown<br>Collaboration with Github 	| Rmarkdown<br>Github 	|
+
+Workshop content draws on this discussion of good enough practices in scientific computing, as well as several [textbooks](#General-resources) linked below.
+  - Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510.
+    - <https://doi.org/10.1371/journal.pcbi.1005510>
+
+### Workshop materials
 
 - View [workshop slides](https://docs.google.com/presentation/d/1JvwDl79NHyAVp_u0KgF3MVIP6RuDPa08qmAUW3wyHdM/edit#slide=id.g2b9763de157_0_75)
 - Go to [Github repository](https://github.com/kathsherratt/r-for-research/tree/main)
   - Download the tutorials:
     - [R Markdown](tutorials/Rmarkdown-intro.Rmd)
     - [Github](tutorials/Github-intro.Rmd)
-
-- Read the article that summarises the key recommendations for good (enough) practices in scientific computing
-  - Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510.
-    - <https://doi.org/10.1371/journal.pcbi.1005510>
-   
 - Feedback welcome! Add your comments or suggestions for improving the workshop by posting in the [repository forum](https://github.com/kathsherratt/r-for-research/issues/).
   - [Open an Issue](https://github.com/kathsherratt/r-for-research/issues/new)
-
+   
 ### Learning more
 
 #### General resources
