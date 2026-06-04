@@ -25,24 +25,28 @@ Workshop content draws on:
    
 ### Learning more
 
-#### General resources
+#### General
 
-Most of these resources cover the key topics of the session (workflow, style guidance, R Markdown, and Git). If one doesn’t make sense to you, try another for a different explanation.
+These resources cover all the key topics of the session (workflow, style guidance, R Markdown, and Git). 
+If one doesn’t make sense to you, try another for a different explanation.
 
+- R and git for research: <https://mq-software-carpentry.github.io/R-git-for-research/>
 - Open Data Science with R: <https://carpentries-incubator.github.io/open-science-with-r>
-- R for Statistical Programming: <https://smac-group.github.io/ds/>
 - Efficient R: <https://csgillespie.github.io/efficientR/>
 - Reproducible Data Science: <https://ecorepsci.github.io/reproducible-science/index.html>
 
-#### Setting up RStudio Projects
+#### Workflows and reproducible set up
 
 - Creating efficient workflows: <https://csgillespie.github.io/efficientR/workflow.html>
 - Managing dependencies with renv: <https://ecorepsci.github.io/reproducible-science/renv.html>
 
-#### Coding
+#### Coding & implementation
 
 - Code style guides: <https://style.tidyverse.org>
 - Writing functions: <https://r4ds.hadley.nz/functions>
+- Package finder: <https://rwarehouse.netlify.app/>
+- Learning statistics with R: <https://learningstatisticswithr.com/book/>
+- R for Statistical Programming: <https://smac-group.github.io/ds/>
 
 #### Reporting and collaborating
 
@@ -53,7 +57,7 @@ Most of these resources cover the key topics of the session (workflow, style gui
   - <https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r> 
   - <https://happygitwithr.com>
 
-#### Questions & resources
+### Questions & resources
 
 - Using R with large or confidential data sets 
   - This guide covers many useful practices, including the highly recommended `data.table` package:
